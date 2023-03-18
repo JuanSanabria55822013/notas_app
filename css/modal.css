@@ -29,3 +29,38 @@
     font-weight: bolder;
     cursor: pointer;
 }
+
+form .input-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 8px 16px;
+}
+
+.button-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-content button{
+    background-color: #4e4e4e;
+    border: 0px;
+    height: 30px;
+    width: 100px;
+    color: #ffffff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.button-content button:hover{
+    background-color: #fff;
+    border: 1px solid #4e4e4e;
+    color: #4e4e4e;
+}
+
+.close-modal{
+    /* visibility: hidden; */
+    display: none;
+}
